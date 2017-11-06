@@ -1,0 +1,25 @@
+{
+  "name": "wkhtmltopdf-lambda-pack",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ebouther/wkhtmltopdf-lambda-pack.git"
+  },
+  "keywords": [
+    "aws",
+    "lambda",
+    "wkhtmltopdf",
+    "pack"
+  ],
+  "author": "ebouther",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ebouther/wkhtmltopdf-lambda-pack/issues"
+  },
+  "homepage": "https://github.com/ebouther/wkhtmltopdf-lambda-pack#readme"
+}
