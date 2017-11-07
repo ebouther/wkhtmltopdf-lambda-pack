@@ -43,7 +43,7 @@ pack.installWkHtmlToPdf = () => {
         pack.packPack(`mkdir2Out: ${mkdir2Out}`);
 
         try {
-            const install = shellSync(`wget -qO-  'https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz' | tar xJ`, WKHTMLTOPDF_PATH);
+            const install = shellSync(`/usr/bin/curl -sL 'https://github.com/wkhtmltopdf/wkhtmltopdf/releases/download/0.12.4/wkhtmltox-0.12.4_linux-generic-amd64.tar.xz' | tar xJ`, WKHTMLTOPDF_PATH);
             pack.packPack(`...download and untar wkhtmltopdf...`);
         }
         catch(e) {
